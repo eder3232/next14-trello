@@ -5,6 +5,7 @@ import localFont from 'next/font/local'
 import { cn } from '@/lib/utils'
 
 import { Poppins } from 'next/font/google'
+import { SignInButton } from '@clerk/nextjs'
 
 const headingFont = localFont({
   src: '../../../public/fonts/font.woff2',
