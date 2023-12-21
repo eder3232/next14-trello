@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import Navbar from './_components/navbar'
+import Footer from './_components/footer'
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -8,6 +9,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <Navbar />
       <main className="pt-40 pb-20 bg-slate-100">{children}</main>
       {/* Footer */}
+      <Footer />
     </div>
   )
 }
